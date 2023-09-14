@@ -1,2 +1,0 @@
-server4
-gives waiting messege once
