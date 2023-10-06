@@ -2,11 +2,6 @@ This is a chat programme or platform that enables people to communicate in real 
 It is possible to send pictures, audio files, and text messages with emoji options. In order to keep things interesting, real-time voice or audio calls can also be made.
 
 Features
-Light or Dark Theme
-To give customers flexibility of choice when it comes to application design, the app now offers a light or dark theme option. This functionality was created with Tailwind CSS.
-
-Chat Pinning
-A sorting algorithm was used to enable the chat pinning function, which enables users to store their favourite chat at the top of the chat list for easy access.
 
 Chat Search
 A sorting algorithm was used to construct the chat searching tool, which enables users to look for a previous conversation with a contact who may have dropped off the chat list.
@@ -46,13 +41,3 @@ Users can record audio and send it to others using this feature. React media rec
 
 Send Photo
 Users may exchange photographs while talking thanks to this functionality, which uses Socket.io to share photos in real time and Cloudinary to store uploaded photos.
-
-Calls
-By using Socket.io to deliver call requests to users in real-time and WebRTC to enable real-time media transmission, this feature allows users to make voice or video calls.
-
-Call Records
-Users can access this feature to view records of calls they've made and their details. React was used to display the records, and MongoDB was used to store the records.
-
-Chatbot
-Users can enjoy themselves on the app with the Telegram Chatbot while some of their connections may be offline thanks to the integration of this functionality. This was made possible by using a Chatbot RESTful API to send messages and get responses from the chatbot.
-
